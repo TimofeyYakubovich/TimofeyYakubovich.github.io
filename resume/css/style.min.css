@@ -392,6 +392,22 @@
   }
 }
 
+@media (max-width: 676px) {
+  .about {
+    padding: 320px 30px 70px 30px;
+  }
+  .about__header {
+    height: 170px;
+    padding: 51px 5% 0 5%;
+  }
+  .about__header-name {
+    font-size: 26px;
+  }
+  .about__header-professional {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 576px) {
   .info__descr-items {
     margin: 20px 0 50px 20px;
@@ -415,7 +431,8 @@
     padding: 320px 30px 70px 30px;
   }
   .about__header {
-    padding: 61px 25px;
+    width: 100%;
+    padding: 61px 5%;
     height: 170px;
   }
   .about__header-name {
@@ -427,7 +444,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 521px) {
   .shell {
     padding: 0;
   }
