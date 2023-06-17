@@ -205,6 +205,21 @@
                 text-align: center;
             }
         }
+        &__experience {
+            margin-top: 50px;
+            &-wrapLinck {
+                display: flex;
+                justify-content: end;
+                height: 100%;
+                width: 205px;
+                .about__experience-gitlinck {
+                    width: 90px;
+                    font-size: 16px;
+                    margin-left: 10px;
+                }
+            }
+            
+        }
     }
     .info {
         grid-row: 2/3;
