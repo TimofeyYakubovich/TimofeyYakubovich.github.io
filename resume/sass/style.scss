@@ -183,6 +183,15 @@ $main-color: #fecb00;
     }
     &__experience {
         margin-top: 50px;
+        &-wrapLinck {
+            display: flex;
+            justify-content: space-between;
+            height: 100%;
+            width: 250px;
+            .about__experience-gitlinck {
+                width: 120px;
+            }
+        }
         &-titwrapp {
             display: flex;
             justify-content: space-between;
